@@ -1,0 +1,13 @@
+
+What is a stack?
+	A stack is a Last In First Out (LIFO) data structure. This means that the last element to be put on the list is the first one to come off of it. 
+
+Why is a stack used?
+	Stacks are incredibly useful in computing and at modeling real world concepts. Some examples are:
+		1) Evaluating postfix expressions 
+		2) Parsing
+		3) Programs use a run time stack to track where the current thread of execution is
+		4) // TODO
+
+How do you implement a stack?
+	Stacks are implemented with a dynamically resizing array or with a linked list. The linked list implementation is easier to do, however, the dynamic array may be better performance wise. The question of performance is answered when you compare the cost of resizing the array to the cost of creating additional nodes in the linked structure. 
