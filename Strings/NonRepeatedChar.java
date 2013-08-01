@@ -11,14 +11,7 @@ public class NonRepeatedChar {
 	}
 
 	public static void main(String[] args) {
-		String[] testCases = new String[] {
-			"total",
-			"teeter"
-		};
-
-		for (int i = 0; i < testCases.length; i++) {
-			System.out.println(getFirstNonRepeatedChar(testCases[i]));
-		}
+		System.out.println(getFirstNonRepeatedChar(args[0]));
 	}
 
 	public static Character getFirstNonRepeatedChar(String word) {
