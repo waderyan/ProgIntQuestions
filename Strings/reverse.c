@@ -20,7 +20,7 @@ void reverse_str(char * frontPtr) {
 
 int main(int argc, char **argv) {
 	
-	char * word = argv[1];
+	char * suword = argv[1];
 
 	reverse_str(word);
 	printf("%s\n", word);
